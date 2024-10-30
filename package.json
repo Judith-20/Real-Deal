@@ -1,5 +1,14 @@
 {
+  "name": "real-deal-project",
+  "version": "1.0.0",
+  "private": true,
   "devDependencies": {
     "gh-pages": "^6.2.0"
+  },
+  "homepage": "https://Judith-20.github.io/Real-Deal",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
+
